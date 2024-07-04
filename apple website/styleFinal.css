@@ -1,0 +1,329 @@
+#navbar{
+    height: 50px;
+    width:100%;
+     background-color: rgba(10, 7, 7, 0.93);
+    
+      
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     font-size: 13px;
+    
+     position: fixed;
+     top:0px;
+     left:0px;
+     z-index: 100;
+}
+
+.navbarContents{
+color: rgba(240, 248, 255, 0.808);
+text-decoration: none;
+font-family:  Helvetica;
+font-weight:lighter;
+}
+#iphone15pro{
+     
+    display: flex;
+    flex-direction: column;
+    font-size: 55px;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    color: white;
+    margin-top:40px;
+    font-family: Helvetica;
+    justify-content: center;
+    font-weight: 540;
+     position: absolute; 
+    left: 0px;
+    right: 0px;
+  
+}
+
+
+#label1{
+    text-align: center;
+    width: 100%;
+  
+    color:whitesmoke;
+    margin-top: 30px;
+}
+#label2{
+    text-align: center;
+    width: 100%;
+    
+    color:whitesmoke;
+    margin-top: 30px;
+    font-size: 29px;
+    font-weight: 100;
+
+}
+#learnAndBuy{
+    
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.labels1{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgba(22, 115, 255, 0.871);
+    font-family: Helvetica;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+#image{
+    text-align: center;
+}
+#iphone15{
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+    position: absolute;
+    top:748px;
+    left: 0;
+}
+
+.labels4{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgba(22, 115, 255, 0.871);
+    font-family: Helvetica;
+     
+}
+#label3{
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    color:black;
+    margin-top: 30px;
+    font-weight: 550;
+    /* padding-top: 60px; */
+    
+}
+#labelsForGridView{
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    color:black;
+    margin-top: 30px;
+    font-weight: 550;
+    /* padding-top: 60px; */
+    
+}
+#label4{
+    text-align: center;
+    width: 100%;
+    
+    color:black;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:350;
+    font-family: Helvetica;
+
+}
+#image2{
+    padding-top: 110px;
+    text-align: center;
+ 
+    
+}
+#watch{
+    width: 100%;
+    height:1000px;
+    position: absolute;
+    top: 1498px;
+    left: 0px;
+    right: 0px;
+    background-color: whitesmoke;
+    background-image: url("IMG_0088\ 2.jpg");
+    
+     background-size: cover;
+}
+ 
+#series{
+    text-align: center;
+    width: 100%;
+    color:orange;
+    margin-top: 30px;
+    font-size:25px;
+    font-weight:350;
+    font-family: Arial, sans-serif  ;
+    letter-spacing: 8px;
+    font-weight:900;
+     
+} 
+#label5{
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    color:whitesmoke;
+    margin-top: 670px;
+    font-weight: 550;
+
+
+}
+#label6{
+    text-align: center;
+    width: 100%;
+    color:whitesmoke;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:350;
+    font-family: Helvetica;
+
+}
+
+#ultra2{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top:2500px;
+    left:0px;
+    right: 0px;
+    background-color:rgba(222, 215, 215, 0.128);
+
+}
+
+#label7{
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    color:black;
+    margin-top: 100px;
+    font-weight: 550;
+
+
+}
+#label8{
+    text-align: center;
+    width: 100%;
+    color:black;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:350;
+    font-family: Helvetica;
+
+}
+#series1{
+    text-align: center;
+    width: 100%;
+    color:whitesmoke;
+    margin-top: 30px;
+    font-size:25px;
+    font-weight:350;
+    font-family: Arial, sans-serif  ;
+    letter-spacing: 8px;
+    font-weight:900;
+     
+} 
+#ultra2image{
+    width: 100%;
+    text-align: center;
+    background-color:rgba(222, 215, 215, 0.128); ;
+}
+
+#macbookpro{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top:3360px;
+    left:0px;
+    right: 0px;
+    background-color:rgba(255, 255, 255, 0.128);
+}
+#ipad{
+    width: 50%;
+    height: 800px;
+    background-color :white;
+    position: absolute;
+    top : 4400px;
+    
+border-radius: 10px;
+transition-property: all;
+transition-duration: 0.6s;
+}
+#ipad:hover{
+    transform: scale(1.1);
+}
+#homePod{
+    width: 50%;
+    height: 800px;
+    background-color:white;
+    position: absolute;
+    top : 4400px;
+    left: 750px;
+    border-radius: 10px;
+}
+#accessories{
+    width: 50%;
+    height: 800px;
+    background-color: rgb(244, 243, 244);
+    position: absolute;
+    top :  6020px;
+    border-radius: 10px;
+}
+#tradein{
+    width: 50%;
+    height: 800px;
+    background-color:rgb(254, 252, 255);;
+    position: absolute;
+    top :  6020px;
+    left: 750px;
+    border-radius: 10px;
+}
+#airpods{
+
+    width: 50%;
+    height: 800px;
+    background-color:black;
+    position: absolute;
+    top : 5210px;
+    border-radius: 10px;
+}
+#airtag{
+    width: 50%;
+    height: 800px;
+    background-color: rgb(244, 244, 244);
+    position: absolute;
+    top : 5210px;
+    left: 750px;
+    border-radius: 10px;
+}
+.gridImages{
+    text-align: center;
+}
+#full{
+    background-color: brown;
+}
+#labelsForGridViewAirpods{
+    font-size: 55px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    color:whitesmoke;
+    margin-top: 30px;
+    font-weight: 550;
+    
+    
+}
+#label4Airpods{
+    text-align: center;
+    width: 100%;
+    
+    color:whitesmoke;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:350;
+    font-family: Helvetica;
+    }
